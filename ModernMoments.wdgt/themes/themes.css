@@ -1,0 +1,375 @@
+/* wood #0 */
+
+.w0 .crn_nw {
+	background: url(w0/crn_nw.png) no-repeat top left;
+	padding-left: 22px
+}
+.w0 .crn_ne {
+	background: url(w0/crn_ne.png) no-repeat top right;
+	padding-right: 22px
+}
+.w0 .crn_sw {
+	background: url(w0/crn_sw.png) no-repeat bottom left;
+	padding-left: 22px
+}
+.w0 .crn_se {
+	background: url(w0/crn_se.png) no-repeat bottom right
+}
+.w0 .brd_n {
+	background: url(w0/brd_n.png) repeat-x top left;
+	height: 17px
+}
+.w0 .brd_s {
+	background: url(w0/brd_s.png) repeat-x bottom left;
+	height: 27px;
+	margin-right: 22px
+}
+.w0 .brd_w {
+	background: url(w0/brd_w.png) repeat-y top left;
+	padding-left: 22px
+}
+.w0 .brd_e {
+	background: url(w0/brd_e.png) repeat-y top right;
+	padding-right: 22px
+}
+
+/* wood #1 */
+
+.w1 .crn_nw {
+	background: url(w1/crn_nw.png) no-repeat top left;
+	padding-left: 22px
+}
+.w1 .crn_ne {
+	background: url(w1/crn_ne.png) no-repeat top right;
+	padding-right: 22px
+}
+.w1 .crn_sw {
+	background: url(w1/crn_sw.png) no-repeat bottom left;
+	padding-left: 22px
+}
+.w1 .crn_se {
+	background: url(w1/crn_se.png) no-repeat bottom right
+}
+.w1 .brd_n {
+	background: url(w1/brd_n.png) repeat-x top left;
+	height: 16px
+}
+.w1 .brd_s {
+	background: url(w1/brd_s.png) repeat-x bottom left;
+	height: 26px;
+	margin-right: 22px
+}
+.w1 .brd_w {
+	background: url(w1/brd_w.png) repeat-y top left;
+	padding-left: 22px
+}
+.w1 .brd_e {
+	background: url(w1/brd_e.png) repeat-y top right;
+	padding-right: 22px
+}
+
+/* wood #2 */
+
+.w2 .crn_nw {
+	background: url(w2/crn_nw.png) no-repeat top left;
+	padding-left: 23px
+}
+.w2 .crn_ne {
+	background: url(w2/crn_ne.png) no-repeat top right;
+	padding-right: 23px
+}
+.w2 .crn_sw {
+	background: url(w2/crn_sw.png) no-repeat bottom left;
+	padding-left: 23px
+}
+.w2 .crn_se {
+	background: url(w2/crn_se.png) no-repeat bottom right
+}
+.w2 .brd_n {
+	background: url(w2/brd_n.png) repeat-x top left;
+	height: 18px
+}
+.w2 .brd_s {
+	background: url(w2/brd_s.png) repeat-x bottom left;
+	height: 28px;
+	margin-right: 23px
+}
+.w2 .brd_w {
+	background: url(w2/brd_w.png) repeat-y top left;
+	padding-left: 23px
+}
+.w2 .brd_e {
+	background: url(w2/brd_e.png) repeat-y top right;
+	padding-right: 23px
+}
+
+/* wood #5 */
+
+.w5 .crn_nw {
+	background: url(w5/crn_nw.png) no-repeat top left;
+	padding-left: 20px
+}
+.w5 .crn_ne {
+	background: url(w5/crn_ne.png) no-repeat top right;
+	padding-right: 20px
+}
+.w5 .crn_sw {
+	background: url(w5/crn_sw.png) no-repeat bottom left;
+	padding-left: 20px
+}
+.w5 .crn_se {
+	background: url(w5/crn_se.png) no-repeat bottom right
+}
+.w5 .brd_n {
+	background: url(w5/brd_n.png) repeat-x top left;
+	height: 16px
+}
+.w5 .brd_s {
+	background: url(w5/brd_s.png) repeat-x bottom left;
+	height: 26px;
+	margin-right: 20px
+}
+.w5 .brd_w {
+	background: url(w5/brd_w.png) repeat-y top left;
+	padding-left: 20px
+}
+.w5 .brd_e {
+	background: url(w5/brd_e.png) repeat-y top right;
+	padding-right: 20px
+}
+
+/* wood #6 */
+
+.w6 .crn_nw {
+	background: url(w6/crn_nw.png) no-repeat top left;
+	padding-left: 20px
+}
+.w6 .crn_ne {
+	background: url(w6/crn_ne.png) no-repeat top right;
+	padding-right: 20px
+}
+.w6 .crn_sw {
+	background: url(w6/crn_sw.png) no-repeat bottom left;
+	padding-left: 20px
+}
+.w6 .crn_se {
+	background: url(w6/crn_se.png) no-repeat bottom right
+}
+.w6 .brd_n {
+	background: url(w6/brd_n.png) repeat-x top left;
+	height: 16px
+}
+.w6 .brd_s {
+	background: url(w6/brd_s.png) repeat-x bottom left;
+	height: 26px;
+	margin-right: 20px
+}
+.w6 .brd_w {
+	background: url(w6/brd_w.png) repeat-y top left;
+	padding-left: 20px
+}
+.w6 .brd_e {
+	background: url(w6/brd_e.png) repeat-y top right;
+	padding-right: 20px
+}
+
+/* wood #13 */
+
+.w13 .crn_nw {
+	background: url(w13/crn_nw.png) no-repeat top left;
+	padding-left: 16px
+}
+.w13 .crn_ne {
+	background: url(w13/crn_ne.png) no-repeat top right;
+	padding-right: 16px
+}
+.w13 .crn_sw {
+	background: url(w13/crn_sw.png) no-repeat bottom left;
+	padding-left: 16px
+}
+.w13 .crn_se {
+	background: url(w13/crn_se.png) no-repeat bottom right
+}
+.w13 .brd_n {
+	background: url(w13/brd_n.png) repeat-x top left;
+	height: 11px
+}
+.w13 .brd_s {
+	background: url(w13/brd_s.png) repeat-x bottom left;
+	height: 21px;
+	margin-right: 16px
+}
+.w13 .brd_w {
+	background: url(w13/brd_w.png) repeat-y top left;
+	padding-left: 16px
+}
+.w13 .brd_e {
+	background: url(w13/brd_e.png) repeat-y top right;
+	padding-right: 16px
+}
+.w13 #passepartout {
+	padding: 6px
+}
+
+/* wood #14 */
+
+.w14 .crn_nw {
+	background: url(w14/crn_nw.png) no-repeat top left;
+	padding-left: 18px
+}
+.w14 .crn_ne {
+	background: url(w14/crn_ne.png) no-repeat top right;
+	padding-right: 18px
+}
+.w14 .crn_sw {
+	background: url(w14/crn_sw.png) no-repeat bottom left;
+	padding-left: 18px
+}
+.w14 .crn_se {
+	background: url(w14/crn_se.png) no-repeat bottom right
+}
+.w14 .brd_n {
+	background: url(w14/brd_n.png) repeat-x top left;
+	height: 13px
+}
+.w14 .brd_s {
+	background: url(w14/brd_s.png) repeat-x bottom left;
+	height: 23px;
+	margin-right: 18px
+}
+.w14 .brd_w {
+	background: url(w14/brd_w.png) repeat-y top left;
+	padding-left: 18px
+}
+.w14 .brd_e {
+	background: url(w14/brd_e.png) repeat-y top right;
+	padding-right: 18px
+}
+
+
+/* wood #16 */
+
+.w16 .crn_nw {
+	background: url(w16/crn_nw.png) no-repeat top left;
+	padding-left: 21px
+}
+.w16 .crn_ne {
+	background: url(w16/crn_ne.png) no-repeat top right;
+	padding-right: 21px
+}
+.w16 .crn_sw {
+	background: url(w16/crn_sw.png) no-repeat bottom left;
+	padding-left: 21px
+}
+.w16 .crn_se {
+	background: url(w16/crn_se.png) no-repeat bottom right
+}
+.w16 .brd_n {
+	background: url(w16/brd_n.png) repeat-x top left;
+	height: 17px
+}
+.w16 .brd_s {
+	background: url(w16/brd_s.png) repeat-x bottom left;
+	height: 27px;
+	margin-right: 21px
+}
+.w16 .brd_w {
+	background: url(w16/brd_w.png) repeat-y top left;
+	padding-left: 21px
+}
+.w16 .brd_e {
+	background: url(w16/brd_e.png) repeat-y top right;
+	padding-right: 21px
+}
+
+/* wood #19 */
+
+.w19 .crn_nw {
+	background: url(w19/crn_nw.png) no-repeat top left;
+	padding-left: 21px
+}
+.w19 .crn_ne {
+	background: url(w19/crn_ne.png) no-repeat top right;
+	padding-right: 21px
+}
+.w19 .crn_sw {
+	background: url(w19/crn_sw.png) no-repeat bottom left;
+	padding-left: 21px
+}
+.w19 .crn_se {
+	background: url(w19/crn_se.png) no-repeat bottom right
+}
+.w19 .brd_n {
+	background: url(w19/brd_n.png) repeat-x top left;
+	height: 16px
+}
+.w19 .brd_s {
+	background: url(w19/brd_s.png) repeat-x bottom left;
+	height: 26px;
+	margin-right: 21px
+}
+.w19 .brd_w {
+	background: url(w19/brd_w.png) repeat-y top left;
+	padding-left: 21px
+}
+.w19 .brd_e {
+	background: url(w19/brd_e.png) repeat-y top right;
+	padding-right: 21px
+}
+
+/* wood #20 */
+
+.w20 .crn_nw {
+	background: url(w20/crn_nw.png) no-repeat top left;
+	padding-left: 18px
+}
+.w20 .crn_ne {
+	background: url(w20/crn_ne.png) no-repeat top right;
+	padding-right: 18px
+}
+.w20 .crn_sw {
+	background: url(w20/crn_sw.png) no-repeat bottom left;
+	padding-left: 18px
+}
+.w20 .crn_se {
+	background: url(w20/crn_se.png) no-repeat bottom right
+}
+.w20 .brd_n {
+	background: url(w20/brd_n.png) repeat-x top left;
+	height: 13px
+}
+.w20 .brd_s {
+	background: url(w20/brd_s.png) repeat-x bottom left;
+	height: 23px;
+	margin-right: 18px
+}
+.w20 .brd_w {
+	background: url(w20/brd_w.png) repeat-y top left;
+	padding-left: 18px
+}
+.w20 .brd_e {
+	background: url(w20/brd_e.png) repeat-y top right;
+	padding-right: 18px
+}
+
+/* null theme */
+
+.null .crn_nw {
+}
+.null .crn_ne {
+}
+.null .crn_sw {
+}
+.null .crn_se {
+}
+.null .brd_n {
+}
+.null .brd_s {
+}
+.null .brd_w {
+}
+.null .brd_e {
+}
+.null #passepartout {
+	padding: 0
+}

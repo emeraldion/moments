@@ -1,0 +1,121 @@
+<html>
+
+<head>
+
+<!-- The style sheet should be kept in a separate file; it contains the design for the widget -->
+<style type="text/css">
+	@import "Moments.css";
+	@import "themes/themes.css";
+</style>
+
+<!-- The JavaScript file contains the logic needed for this widget -->
+<script type="text/javascript" src="Additions.js" charset="utf-8"/>
+<script type="text/javascript" src="Animation.js" charset="utf-8"/>
+<script type="text/javascript" src="Photo.js" charset="utf-8"/>
+<script type="text/javascript" src="Frame.js" charset="utf-8"/>
+<script type="text/javascript" src="Moments.js" charset="utf-8"/>
+<script type="text/javascript" src="Preferences.js" charset="utf-8"/>
+<script type="text/javascript" src="Slideshow.js" charset="utf-8"/>
+<script type="text/javascript" src="VersionChecker.js" charset="utf-8"/>
+<script type="text/javascript" src="LocalizedStrings.js" charset="utf-8"/>
+<script type="text/javascript" src="themes/themes.js" charset="utf-8"/>
+<script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleButton.js" charset="utf-8"/>
+</head>
+
+<body ondragenter="dragenter(event);" ondragover="dragover(event);" ondrop="dragdrop(event);" ondragleave="dragleave(event);">
+	<div id="update-available">
+		&nbsp;
+	</div>		
+	<div id="front" onmousemove="mousemove(event);" onmouseout="mouseexit(event);" ondblclick="dblclick(event);">
+		<div class="crn_nw">
+			<div class="crn_ne">
+				<div class="brd_n">&nbsp;
+				</div>
+			</div>
+		</div>
+		<div class="brd_w">
+			<div class="brd_e">
+				<div id="passepartout">
+					<div style="width:200px;height:200px" id="framecontent">
+						<img id="photo" src="img/drag-here.png" />
+						<img id="glass" style="width:200px;height:47px" src="img/glass.png" />
+						<img id="play" src="img/play.png" />
+						<img id="pause" src="img/pause.png" />
+						<div id="index-carpet"></div>
+						<div class="flip" id="flip"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="crn_sw">
+			<div class="crn_se">
+				<div class="brd_s">&nbsp;
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="back">
+		<div id="backprefs">
+			<h2 id="version">&nbsp;</h2>
+			<form id="prefFrm" action="javascript:loadPhoto()">
+			<p>
+				<label for="photo.size.field" id="photo.size.label">Size</label>:
+				<select name="photo.size" id="photo.size.field" onchange="Preferences.update(this)">
+					<option value="100">Micro</option>
+					<option value="150">Tiny</option>
+					<option value="200" selected="selected">Medium</option>
+					<option value="300">Large</option>
+					<option value="400">Huge</option>					
+				</select>
+			</p>
+			<p>
+				<input type="checkbox"
+					id="frame.glassVisible.field"
+					name="frame.glassVisible"
+					value="1"
+					checked="checked"
+					onchange="Preferences.update(this)"/>
+				<label for="frame.glassVisible.field" id="frame.glassVisible.label">With Glass</label>
+			</p>
+			<p>
+				<input
+					type="checkbox"
+					name="Slideshow.autoStart"
+					id="Slideshow.autoStart.field"
+					value="1"
+					onchange="Preferences.update(this)"
+					requires="photo.album.length > 1"/>
+					<label for="Slideshow.autoStart.field" id="Slideshow.autoStart.label">Auto Slideshow</label>
+			</p>
+			<p>
+				<label for="Slideshow.interval.field" id="Slideshow.interval.label">Slideshow interval</label>:
+				<select
+					name="Slideshow.interval"
+					id="Slideshow.interval.field"
+					onchange="Preferences.update(this)"
+					requires="photo.album.length > 1">
+					<option value="5000">5s</option>
+					<option value="10000">10s</option>
+					<option value="20000">20s</option>
+					<option value="30000">30s</option>
+					<option value="60000">1m</option>
+					<option value="120000">2m</option>					
+				</select>
+			</p>
+			</form>
+		</div>
+		<a id="eme_link" href="javascript:goToUrl('http://www.emeraldion.it')"></a>
+		<div class="buttons">
+			<div class="button" id="done"></div>
+			<div class="button" id="help"></div>
+			<div class="button" id="donate"></div>
+		</div>
+	</div>
+	
+	<div id="loader">
+		<img id="dummy" />
+	</div>
+</body>
+
+</html>
